@@ -26,6 +26,10 @@ function isPari(n) {
   return n % 2 === 0;
 }
 
+function isDispari(n) {
+  return n % 2 != 0;
+}
+
 function fattoriale(n) {
   if (n < 0) throw new Error("Il fattoriale non è definito per numeri negativi");
   if (n === 0 || n === 1) return 1;
