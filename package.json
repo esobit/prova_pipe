@@ -5,9 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --test"
+    "test": "jest --verbose "
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
